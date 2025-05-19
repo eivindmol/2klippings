@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Vedlikehold Tracker</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <h1>Personlig Vedlikehold Tracker</h1>
+
+    <div class="task">
+        <h2>Hårklipp</h2>
+        <p id="lastHaircut">Ingen klipp registrert enda.</p>
+        <p id="nextHaircut"></p>
+        <button id="haircutButton">Registrer hårklipp i dag</button>
+    </div>
+
+    <div class="task">
+        <h2>Dynetrekk</h2>
+        <p id="lastBeardTrim">Ingen dynetrekkskift registrert enda.</p>
+        <p id="nextBeardTrim"></p>
+        <button id="beardButton">Registrer dynetrekk i dag</button>
+    </div>
+
+    <div class="task">
+        <h2>Strekk</h2>
+        <p id="lastStretch">Ingen strekk registrert enda.</p>
+        <button id="stretchButton">Registrer strekk i dag</button>
+    </div>
+
+    <div class="task">
+        <h2>Vask bad nede</h2>
+        <p id="lastBadNede">Ingen vask registrert enda.</p>
+        <p id="nextBadNede"></p>
+        <button id="badNedeButton">Registrer vask i dag</button>
+    </div>
+
+    <button id="resetButton" class="reset">Nullstill alt</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
